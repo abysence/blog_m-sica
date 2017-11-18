@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+  background-color: #014D4D; }
+
+.container {
+  background-color: white; }
+
+/*Header
+*/
+#logo {
+  width: 50%;
+  margin-bottom: 5px;
+  color: white;
+  margin: 5px; }
+
+ul.redes-sociales li a {
+  color: #014D4D;
+  font-size: 2.5rem; }
+
+/*Navbar
+*/
+ul.nav.nav-pills.nav-justified {
+  background-color: #CC3333; }
+
+ul.nav.nav-pills.nav-justified a {
+  color: white;
+  font-size: 2rem;
+  border-left: 0.5px black solid;
+  border-right: 0.5px black solid; }
+
+.nav > li > a:focus, .nav > li > a:hover {
+  color: white;
+  background-color: #A75919; }
+
+.nav-pills > li.active > a {
+  background-color: #29A329; }
+
+.nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  color: white;
+  background-color: #A75919; }
+
+/*Contenido de posts
+*/
+div.row:not(.contacto) {
+  margin: auto; }
+
+.contenido {
+  background-color: #E59859;
+  margin-top: 10px; }
+
+.titulo-post a {
+  color: black;
+  font-weight: bold; }
+
+.img-post {
+  width: 100%;
+  margin-bottom: 8px; }
+
+p a {
+  color: inherit;
+  text-decoration: none; }
+
+i.fa-user {
+  font-size: 125px; }
+
+/*Búsqueda*/
+.btn-info {
+  background-color: #CC3333;
+  border-color: #CC3333; }
+
+.btn-info:hover, .btn-info:focus {
+  background-color: #A75919;
+  border-color: #A75919; }
+
+.busqueda {
+  padding-top: 10px; }
+
+@media (max-width: 425px) {
+  i.fa-user {
+    font-size: 70px; }
+
+  ul.nav.nav-pills.nav-justified a {
+    border-bottom: 0.5px black solid;
+    border-right: none;
+    border-left: none; } }
